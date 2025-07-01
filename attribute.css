@@ -1,4 +1,24 @@
-p[class ="first-set"]
+p[class|="first"]
 {
-    color: blue;
+    color: red;
+}
+
+p[id~="pa"]
+{
+    color: brown;
+}
+
+p[class^="paragraph"]
+{
+    color:chartreuse
+}
+
+[class$="paragraph"]
+{
+    color: crimson;
+}
+
+[class*="pa"]
+{
+    color: darkgoldenrod;
 }

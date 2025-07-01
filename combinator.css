@@ -1,0 +1,19 @@
+div p{
+    color:blue
+}
+
+div h2{
+    color:brown
+}
+
+div > span{
+    color: red;
+}
+
+div + p{
+
+}
+
+div ~ p{
+    
+}
